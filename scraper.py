@@ -1,5 +1,8 @@
-# This is a template for a Python scraper on morph.io (https://morph.io)
-# including some code snippets below that you should find helpful
+import requests
+import bs4
+from bs4 import BeautifulSoup
+import pandas as pd
+import time
 
 # import scraperwiki
 # import lxml.html
